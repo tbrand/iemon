@@ -44,6 +44,7 @@ require "iemon"
 ```
 
 Define your object which inherits `Iemon::Object`.
+
 Iemon manages shared properties. You can define it by using `assigns` method.
 ```crystal
 class MyObj < Iemon::Object
@@ -52,6 +53,7 @@ end
 ```
 
 Then `x` of `MyObj` will be shared between multiple processes.
+
 So below code will work correctly.
 ```crystal
 my_obj = MyObj.new(x: 1)
@@ -67,6 +69,7 @@ puts my_obj.x
 ```
 
 Call `Iemon::Object#clean` once if you don't need to share the properties of the object anymore.
+
 Otherwise the shared memory remains even if the execution is finished.
 ```crystal
 my_obj.clean
