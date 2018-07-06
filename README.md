@@ -1,9 +1,9 @@
 <p align="center">
-  Iemon (伊右衛門)
+  **Iemon (伊右衛門)**
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/3483230/42362737-99827998-812f-11e8-93c3-b149355a07f1.png" width="200" />
+  <img src="https://user-images.githubusercontent.com/3483230/42362737-99827998-812f-11e8-93c3-b149355a07f1.png" width="150" />
 </p>
 
 <p align="center">
