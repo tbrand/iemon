@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <i>Awesome shared object in multiple processes</i>
+  <i>Awesome shared object in multiple processes for Crystal</i>
 </p>
 
 ```crystal
