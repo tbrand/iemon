@@ -1,14 +1,18 @@
 <p align="center">
-  Iemon (伊右衛門)
+  <b>Iemon (伊右衛門)</b>
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/3483230/42362737-99827998-812f-11e8-93c3-b149355a07f1.png" width="200" />
+  <img src="https://user-images.githubusercontent.com/3483230/42362737-99827998-812f-11e8-93c3-b149355a07f1.png" width="150" />
 </p>
 
 <p align="center">
-  <i>Awesome shared object in multiple processes</i>
+  <i>Awesome shared object in multiple processes for Crystal</i>
 </p>
+
+## Abstract
+
+:star: **This will work!** :star:
 
 ```crystal
 my_object = MyObj.new(x: 1)
@@ -40,6 +44,7 @@ require "iemon"
 ```
 
 Define your object which inherits `Iemon::Object`.
+
 Iemon manages shared properties. You can define it by using `assigns` method.
 ```crystal
 class MyObj < Iemon::Object
@@ -48,6 +53,7 @@ end
 ```
 
 Then `x` of `MyObj` will be shared between multiple processes.
+
 So below code will work correctly.
 ```crystal
 my_obj = MyObj.new(x: 1)
@@ -63,6 +69,7 @@ puts my_obj.x
 ```
 
 Call `Iemon::Object#clean` once if you don't need to share the properties of the object anymore.
+
 Otherwise the shared memory remains even if the execution is finished.
 ```crystal
 my_obj.clean
