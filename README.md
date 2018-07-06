@@ -10,6 +10,10 @@
   <i>Awesome shared object in multiple processes for Crystal</i>
 </p>
 
+## Abstract
+
+:star: **This will work!** :star:
+
 ```crystal
 my_object = MyObj.new(x: 1)
 
