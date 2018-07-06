@@ -1,5 +1,5 @@
 <p align="center">
-  **Iemon (伊右衛門)**
+  <b>Iemon (伊右衛門)</b>
 </p>
 
 <p align="center">
